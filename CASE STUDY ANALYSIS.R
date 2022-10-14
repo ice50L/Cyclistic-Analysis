@@ -102,12 +102,17 @@ all_trips_v2 %>%
 all_trips_v2 %>%
   group_by(Month_Name, member_casual) %>%
   summarise(average_duration = mean(length_of_ride))%>%
-  ggplot(aes(x = Month_Name, y = average_duration, group = member_casual)) +  geom_line(aes(color = member_casual)) + labs(y = "Average Ride Duration", x = "Name of Month (2021-2022")
+  ggplot(aes(x = Month_Name, y = average_duration, group = member_casual)) +  geom_line(aes(color = member_casual)) + labs(y = "Average Ride Duration", x = "Name of Month (2021-2022)")
   
-  
+#Month and Number of rides
+all_trips_v2 %>%
+  group_by(Month_Name, member_casual) %>%
+  summarise(number_of_rides = n()) %>%
+  ggplot(aes(x = Month_Name, y = number_of_rides, group = member_casual)) +geom_line(aes(color = member_casual)) + labs(y = "Number of Rides" , x = "Month (Aug 2021 - September 2022)") +scale_y_continuous(labels = comma)
+
+
 #Exporting the data
 counts <- aggregate(all_trips_v2$length_of_ride ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
 counts
 testfile <- all_trips_v2
 write.csv(testfile, file = '/Users/ice50l/Downloads/Case Study R csv/all_trips_v2.csv')
-
