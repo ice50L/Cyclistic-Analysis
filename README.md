@@ -11,9 +11,9 @@ The finance analysts of Cyclistic has determined that anmnual memberships are mo
 
 # Questions and Beliefs
 
-*Where does casual members and annual members differ?
-*People who are already casual members will be easier to convert than bringing in new members.
-*What is the difference on amount of people that are casual versus annual? 
+* Where does casual members and annual members differ?
+* People who are already casual members will be easier to convert than bringing in new members.
+* What is the difference on amount of people that are casual versus annual? 
 
 # Data Visualization and description
 
@@ -43,6 +43,6 @@ From this pie chart, annual members make up about 58.82% of total number of ride
 
 # Conclusions/Recommendations
 
-*Discount the prices of docked bikes for annual members to appeal to them, which will most likely bring up the sales of the docked bikes.
-*Start a promotion to reduce the price of subscriptions in the winter to promote more riders during this time interval. 
-*Inform casual riders that have been with Cyclistic for a month that they are qualified for a discount if they switch to the annual plan. 
+* Discount the prices of docked bikes for annual members to appeal to them, which will most likely bring up the sales of the docked bikes.
+* Start a promotion to reduce the price of subscriptions in the winter to promote more riders during this time interval. 
+* Inform casual riders that have been with Cyclistic for a month that they are qualified for a discount if they switch to the annual plan. 
