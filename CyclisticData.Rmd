@@ -151,7 +151,7 @@ all_trips_v2 %>%
 all_trips_v2 %>%
   group_by(Month_Name, member_casual) %>%
   summarise(average_duration = mean(length_of_ride))%>%
-  ggplot(aes(x = Month_Name, y = average_duration, group = member_casual)) +  geom_line(aes(color = member_casual)) + labs(y = "Average Ride Duration", x = "Name of Month (2021-2022")
+  ggplot(aes(x = Month_Name, y = average_duration, group = member_casual)) +  geom_line(aes(color = member_casual)) + labs(y = "Average Ride Duration", x = "Name of Month (2021-2022)") + scale_x_discrete(limits = month.name)
 ```
 
 ```{r}
@@ -159,7 +159,8 @@ all_trips_v2 %>%
 all_trips_v2 %>%
   group_by(Month_Name, member_casual) %>%
   summarise(number_of_rides = n()) %>%
-  ggplot(aes(x = Month_Name, y = number_of_rides, group = member_casual)) +geom_line(aes(color = member_casual)) + labs(y = "Number of Rides" , x = "Month (Aug 2021 - September 2022)") +scale_y_continuous(labels = comma)
+  ggplot(aes(x = Month_Name, y = number_of_rides, group = member_casual)) +geom_line(aes(color = member_casual)) + labs(y = "Number of Rides" , x = "Month (Aug 2021 - September 2022)") +scale_y_continuous(labels = comma) + scale_x_discrete(limits = month.name)
+
 ```
 
 Data export
