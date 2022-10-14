@@ -29,3 +29,20 @@ Casual members on average appears to spend more time riding Cyclistic's bikes on
 
 There appears to be a preference for the bike types. There appears to be about 1.78 million riders that are annual members that ride the classic bike, while at the same time, there are 0 annual members that ride the docked bike. 
 
+<img width="895" alt="image" src="https://user-images.githubusercontent.com/115594312/195885581-85c5fe58-577e-40e2-97d3-4a37910e3e3e.png">
+
+Unexpectedly, it seems that casuals average about 20 more minutes in terms of bike riding per month compared to annual subscribers. Activity between both groups also appears to drop around November from both parties. 
+
+<img width="901" alt="image" src="https://user-images.githubusercontent.com/115594312/195886623-5cc06cfd-4358-4c16-809e-8c60d9eca567.png">
+
+According to the graph, it seems that both annual and casual members have the least amount of riders from January-February, while the amount of riders peaking in around the July region. 
+
+<img width="1037" alt="image" src="https://user-images.githubusercontent.com/115594312/195887373-b66bb3d4-9be4-4987-ad38-867b415cdb8e.png">
+
+From this pie chart, annual members make up about 58.82% of total number of rides compared to casual riders that make up 41.18% of total number of rides. This can be used to prove the claim that it is easier to convert current casual members because than onboarding new people because annual members currently make up majority of the representation. 
+
+# Conclusions/Recommendations
+
+*Discount the prices of docked bikes for annual members to appeal to them, which will most likely bring up the sales of the docked bikes.
+*Start a promotion to reduce the price of subscriptions in the winter to promote more riders during this time interval. 
+*Inform casual riders that have been with Cyclistic for a month that they are qualified for a discount if they switch to the annual plan. 
